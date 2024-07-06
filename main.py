@@ -4,7 +4,7 @@ from typing import List, Optional
 from uuid import UUID, uuid4 #unique identifier
 
 
-#we create an instance of fastapi
+#we create an instance of fastapis
 app = FastAPI()
 
 #writing a pydantic model that will automatically be converted to JSON data
@@ -17,7 +17,7 @@ class Task(BaseModel):
 
 
 #in-memory database (when we turn off our server all our data will be 
-#lost but that's okay since this is only testing)
+#lost but that's okay since this is only testing)   
 #tasks here is representing an empty list
 tasks = []
 
